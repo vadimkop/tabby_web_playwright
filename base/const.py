@@ -1,0 +1,1 @@
+prod_url = "https://tabby.ai/en-AE"

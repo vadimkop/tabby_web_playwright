@@ -1,0 +1,29 @@
+image: mcr.microsoft.com/playwright:v1.41.2-focal
+
+definitions:
+
+  yaml-anchors:
+    - &configure-python |
+      apt-get update && apt-get install -y software-properties-common
+      add-apt-repository ppa:deadsnakes/ppa
+      apt-get update && apt-get install -y python3.12 python3.12-dev python3.12-venv python3-pip
+      pip3 install -r requirements.txt
+
+  common-pipeline-fields: &common-pipeline-fields
+    caches:
+      - pip
+    artifacts:
+      - test-results/*.zip
+
+
+pipelines:
+
+  custom:
+
+    prod_chrome_base:
+    - step:
+        name: Prod Chrome
+        script:
+          - *configure-python
+          - pytest --base_url "prod" --launch_type "headless" -m prod --qase-testops-run-title="Prod Chrome $BITBUCKET_BUILD_NUMBER" --reruns=1
+        <<: *common-pipeline-fields

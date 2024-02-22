@@ -25,6 +25,7 @@ class TestShop:
             shop.assert_shop_opened()
 
         with qase.step("Step 2. Click Split in 4 product", "Split in 4 product opened"):
+            shop.reload_page()
             shop.select_product()
 
         with qase.step("Step 3. Click Visit Shop button", "Enter your phone number popup opened"):

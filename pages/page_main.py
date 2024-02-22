@@ -1,7 +1,6 @@
 from playwright.sync_api import Page
 from base.locator_methods import Locators
 from base.locator_names import LocatorMenu
-from base.asserts import Asserts
 
 
 class PageMain:

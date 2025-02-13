@@ -1,11 +1,9 @@
-import pytest
 from qaseio.pytest import qase
 from pages.page_main import PageMain
 from pages.page_shop import PageShop
 from pages.page_login import PageLogin
 
 
-@pytest.mark.prod
 @qase.layer("e2e")
 class TestShop:
 
@@ -24,8 +22,7 @@ class TestShop:
             main.menu_shop_click()
             shop.assert_shop_opened()
 
-        with qase.step("Step 2. Click Split in 4 product", "Split in 4 product opened"):
-            shop.reload_page()
+        with qase.step("Step 2. Click product", "Product opened"):
             shop.select_product()
 
         with qase.step("Step 3. Click Visit Shop button", "Enter your phone number popup opened"):

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8cf598d1-67cf-458b-bca2-c0e6d26d7e01" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/tabby_web_playwright.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/locator_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/locator_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/locator_names.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/locator_names.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/page_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/page_shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page_shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pitest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pitest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_shop.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vadimkop&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vadimkop/tabby_web_playwright.git&quot;,
+    &quot;accountId&quot;: &quot;2b7f4d82-4890-4a7e-a0d2-1dfb67a0b8b3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2sqVPKe36iq3BmW6z9nyTmEgPhL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for test_shop.TestShop.test_shop_unregistered_client_prod.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="pytest for test_shop.TestShop.test_shop_unregistered_client_prod" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tabby_web_playwright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_shop.TestShop.test_shop_unregistered_client_prod&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_shop.TestShop.test_shop_unregistered_client_prod" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cf598d1-67cf-458b-bca2-c0e6d26d7e01" name="Changes" comment="" />
+      <created>1739183066968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739183066968</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="bitbucket-pipelines.yml" />
+  </component>
+</project>

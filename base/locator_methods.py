@@ -65,6 +65,7 @@ class Locators:
 
     def role_main_locator(self, selector):
         return self.page.get_by_role("main").locator(selector)
+
     def role_navigation_link(self, selector_1, selector_2):
         return self.page.get_by_role("navigation", name=selector_1).get_by_role("link", name=selector_2, exact=True)
 
